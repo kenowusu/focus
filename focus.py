@@ -20,6 +20,7 @@ def focus(focusmode):
                 with open(hostpath,mode='w') as hostfile:
 
                     for line in lines:
+                        print(line)
                         if  line.lstrip('#127.0.0.1 ').rstrip('\n') in weblist:
                             hostfile.write(line.lstrip('#'))
                            

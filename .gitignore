@@ -2,4 +2,5 @@ myenv
 build
 dist
 main.spec
-__pycache__
+__pycache__ 
+focus.spec 
